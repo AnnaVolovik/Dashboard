@@ -1,0 +1,266 @@
+body {
+    width: 1280px;
+    height: 1049px;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    color: #4A4A4A;
+    background: #EFF1F4;
+}
+section {
+    margin: 2em auto;
+    width: 748px;
+    height: 775px;
+    border-radius: 10px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
+    background: white;
+    padding: 40px
+}
+nav {
+    display: table;
+	text-align:center;
+    margin-bottom: 4%;
+}
+nav > a:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+nav > a:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+nav > a {
+    display: table-cell;
+    width: 104px;
+    height: 32px;
+    border: 1px solid #D9D9D9;
+    border-radius: 1px;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    color: #4A4A4A;
+    text-decoration: none;
+    background-color: white;
+    float: left;
+    margin-right:-1px;
+    padding-top: 7.6px;
+}
+nav > a:hover, .active {
+    color: #FFFFFF;
+	background: #2196F3;
+}
+h1 {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    alignment: left;
+}
+h2 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    alignment: left;
+}
+p {
+    font-size: 12px;
+    line-height: 16px;
+    alignment: left;
+    font-weight: lighter;
+}
+p > a {
+    display: inline;
+    text-decoration: none;
+    color: #2196F3;
+}
+hr {
+    border: 0;
+    width: 541px;
+    height: 1px;
+    border-top: 1px solid #EFF1F4;
+    margin: 20px auto;
+    clear: both;
+}
+.text_wrapper > h2, .text_wrapper > p {
+    display: inline;
+}
+.emphasized {
+    display: inline-block;
+    color: #FFFFFF;
+    font-size: 12px;
+    height: 14px;
+    border-radius: 10px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 3%;
+}
+.text_wrapper {
+    display:inline-block;
+}
+.group20 > .text_wrapper {
+    width: 60%;
+    vertical-align: top;
+    margin-left: 5%;
+}
+
+/*  colors */
+.yellow {
+    background-color: #FFCC00;
+}
+.violet {
+    background-color: #5856D5;
+}
+.green {
+    background-color: #8BC34A;
+}
+.blue {
+    background-color: #2196F3;
+}
+.grey-background {
+    background-color: #A0B0B9;
+}
+.grey {
+    color: #A0B0B9;
+}
+.red {
+    color: #FF6A67;
+}
+.red-background {
+    background-color: #FF6A67;
+}
+
+/*  blocks */
+.group6 {
+    margin: 5px auto 10px;
+    height: auto;
+    clear: both;
+}
+.group12 {
+    margin: 10px auto 50px;
+    width:90%;
+	display:inline-block;
+}
+.group12 > div.square {
+    margin: 0 1px;
+}
+.group14, .group20 {
+    display:inline-block;
+	float:left;
+	margin-left:2%;
+}
+.group14 {
+    width: 30%;
+}
+.group20 {
+    width: 40%;
+}
+.group18 {
+    width: 55%;
+    display:inline-block;
+	float:left;
+	margin-left:2%;
+}
+
+/* square - circle elements */
+.circle_wrapper {
+    margin: 5px;
+    display:inline-block;
+    float: left;
+}
+.circle_wrapper > p {
+    display: inline-block;
+    float: left;
+}
+.wrapper {
+    display: inline-block;
+}
+.circle {
+	width:10px;
+	height:10px;
+	border-radius:50%;
+}
+.square_rounded {
+	width:10px;
+	height:10px;
+	border-radius:2px;
+}
+.square {
+    display: inline-block;
+    height: 8px;
+}
+
+/* Shape */
+.shape {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #2196F3;
+}
+.svg_shape {
+    position: absolute;
+    right: 14px;
+    top: 14px;
+}
+.inner_circle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 2px solid #FFFFFF;
+	width:10px;
+	height:10px;
+	border-radius:50%;
+    margin-right: 0;
+}
+.inner_shape {
+    left: 25.16%;
+    right: 73.59%;
+    top: 44.42%;
+    bottom: 53.86%;
+    background-color: #FFFFFF;
+    display: block;
+    width: 10px;
+    height: 10px;
+}
+div.t {
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-bottom: 5px;
+}
+div.t_con {
+    position: relative;
+    display: inline-block;
+    width: 30%;
+    height: auto;
+}
+div.t_text {
+    width: 100px;
+    height: auto;
+    display: inline-block;
+}
+.t_shape {
+    position: relative;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #2196F3;
+    margin: 0 auto;
+}
+.t_shape svg {
+    width: 50%;
+    margin: 16px 0;
+
+}
+.t_shape > div.t_circle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 2px solid #FFFFFF;
+	width:10px;
+	height:10px;
+	border-radius:50%;
+}
+.t > svg {
+    margin: 2px;
+}
