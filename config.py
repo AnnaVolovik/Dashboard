@@ -1,5 +1,4 @@
 class Config(object):
-    """Базовые конфигурации приложения"""
     USERNAME = 'admin'
     PASSWORD = 'admin'
 
