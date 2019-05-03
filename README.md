@@ -13,7 +13,7 @@ Imlement a simplified version of a client's dashboard with Python (Flask) & Reac
 <li>Написать фронтенд на react-стеке;</li>
 <li>Поднять веб-сервер на python, который будет отдавать нужные данные на фронт (данные в файле dashboard_data.json).</li>
 
-
+---
 <b>Set up</b>
 
 `python server/server.py`
