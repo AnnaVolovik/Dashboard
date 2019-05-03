@@ -19,7 +19,7 @@ function LeftSide(props) {
 function RightSide (props) {
 
     const helpItems = {
-        searches: ["CTR", "Clicks"],
+        searches: ["Searches", "Pessimisation"],
         clicks: ["CTR", "Clicks"],
         bookings: ["STR", "Bookings", "Avg. Check"]
     };

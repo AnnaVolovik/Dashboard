@@ -1,7 +1,7 @@
 {
   "name": "Dashboard",
   "version": "1.0.0",
-  "description": "A simplified personal account example built with Flask & React",
+  "description": "A simplified client's dashboard example built with Flask & React",
   "main": "index.jsx",
   "scripts": {
     "test": "test",
